@@ -1,0 +1,153 @@
+
+body,div,input,span,button{
+	font-family: "Microsoft YaHei";
+}
+/* 全局居中，如果不需要居中，则应该把此设置删除 */
+div.editor-top,div.editor-content,div.editor-bottom{
+	width: 1000px;
+	margin: 0 auto;
+}
+div.editor-top{
+	position: relative;
+}
+div.editor-top input{
+	position: relative;
+	display: block;
+	width: 1000px;
+	border: none;
+	color:#9f9f9f;
+	outline: none;
+}
+
+div.editor-top #article-title{
+	font-size: 30px;	
+}
+
+div.editor-top #article-author{
+	font-size: 18px;
+}
+
+div.editor-top .editor-top-line{
+	margin: 10px 0;
+	width:1000px;
+	border: none;
+	border-top: solid 1px #e2e2e2;
+}
+
+/**设置编辑器部分样式**/
+div.editor-content{
+	position: relative;
+}
+#editor{
+	position: relative;
+	width: 1000px;
+}
+
+div.editor-bottom{
+	position: relative;
+}
+
+/**设置编辑器底部样式**/
+
+div.editor-bottom .image-model{
+	height: 30px;
+	margin:15px 0;
+}
+
+.image-model span{
+	font-size:24px;
+}
+.image-model input{
+	margin-left: 40px;
+	margin-right: 10px;
+
+}
+.image-model input,.image-model label{
+	padding: 0;
+	height: 24px;
+	vertical-align: middle;
+}
+.img-upload{
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+	width: 220px;
+	height: 140px;
+	border: 2px dashed #9f9f9f;
+}
+.single-preivew{
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+	width: 220px;
+	height: 140px;	
+}
+.line-row{
+	position: absolute;
+	width: 60px;
+	margin: 65px 80px;
+	border-top: 10px solid #9f9f9f;
+}
+.line-col{
+	position: absolute;
+	height: 60px;
+	margin: 40px 105px;
+	border-left: 10px solid #9f9f9f;
+}
+
+div.buttons{
+	position: relative;
+	width: 1000px;
+	margin-top: 68px;
+	text-align: center;
+}
+
+div.buttons button{
+	width: 150px;
+	height: 46px;
+	margin: 0px 20px;
+	background-color: #fb4b4e;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 8px;
+}
+
+/**预览页面**/
+div.preview-layer{
+	display: none;
+	position: relative;
+	
+}
+div.preview-layer .preview-bg{
+	position: fixed;
+	width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+	z-index:999; 	
+	background-color:#000; 
+	opacity:0.7;  
+}
+
+div.preview-layer .preview-phone{
+	position: fixed;
+	width: 410px;
+	height: 840px;
+	background: url(../images/iphone-bg.png) no-repeat no-repeat;
+	z-index: 9999;
+}
+
+#preview-html{
+	position: absolute;
+	width:361px;
+	height: 638px;
+	top:98px;
+	left:24px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	outline: none;
+	background-color: #fff;
+}

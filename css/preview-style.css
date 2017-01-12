@@ -1,0 +1,172 @@
+body,ul,li,a,img,p,h1,h2,h3,h4,input,form,button{padding:0;margin:0;border:0;list-style: none;}
+
+body{margin: 0 auto;padding-top: 20px; font-family:"微软雅黑",Arial;position: relative;word-break:break-all;max-width: 640px;min-width: 320px;background: #ededed;}
+.article-title h1{font-size: 1.3em;margin-bottom: 10px;padding: 0 10px;text-align: center;}
+.article-content{font-size: 1.1em;padding: 10px 10px 30px;color: #000000;}
+.article-top{
+	margin-bottom: 2.5em;
+
+}
+.article-time {
+	line-height: 1.2em;margin: 20px 0;text-indent: 0.5em;color:#b6b6b6;position: absolute;
+}
+.article-yue {
+	right: 10px;
+	float: right;
+	line-height: 1.2em;
+	margin: 20px 0;
+	text-indent: 0.5em;
+	color: #b6b6b6;
+	position: absolute;
+}
+.article-zan1{
+	margin: 0 10px 20px 10px;
+}
+.article-zan{
+	color:#b6b6b6;
+}
+.article-zan img{
+	width: 18px;
+	height: 18px;
+	right: 40px;
+
+}
+.article-zan p{
+	right: 20px;
+}
+
+.article-content p{
+	word-wrap: break-word;line-height: 1.2em;margin: 20px 0 0 0;text-indent: 1.8em;
+}
+.article-content img {max-width: 100%;display: block;margin: 0 auto;border-radius: 4px;}
+
+.user-comment{
+
+	margin: 0 10px;
+	border-left: #fb4b4e solid 0.4em;
+	padding-left: 5px;
+	color:#b6b6b6 ;
+}
+.comment-title{color:#595959;}
+.comment-list{
+	margin: 20px 10px 120px 10px;
+}
+
+.comment-top{
+	margin: 10px 0;
+
+}
+
+.user-name{
+	color:#a1a1a1;
+	float: left;
+}
+.comment-hot{
+	margin-left: 20px;
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+}
+.comment-zan {
+	right: 20px;
+	float: right;
+}
+.comment-zan img{
+	width: 18px;
+	height: 18px;
+}
+.comment-bottom{
+	margin-top: 40px;
+}
+.comment-time{
+	color:#a1a1a1;
+	font-size: 0.8em;
+	margin: 10px 0;
+}
+
+.comment-div{
+	clear: both;
+	height: 100%;
+	overflow: auto;
+}
+
+.user-all{
+	color: #a1a1a1;
+	text-align: center;
+	font-size: 0.8em;
+}
+#footer{
+	width:100%;
+	box-sizing: border-box;
+	border-top:0.15em solid #cbcaca;
+	padding:10px;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	bottom: 0;
+	background: #ededed;
+	overflow: hidden;
+}
+#footer-ping{
+	background: #d8d8d8;
+	line-height: 3.75em;
+	border-radius: 0.3em;
+	float: left;
+	padding: 0 20px;
+	width: 50%;
+	border:0 solid #d8d8d8;
+	display: inline-block;
+
+}
+#footer-button{
+	width: 20%;
+	float: right;
+	border:0.18em solid #fb4d50;
+	line-height: em;
+	display: none;
+	border-radius: 0.3em;
+	line-height: 2.8em;
+	text-align: center;
+	color: #fb4d50;
+	margin-right: 5%;
+}
+
+.open-comment{
+	display: inline-block;
+	margin: 5px;
+	border: 2px solid #d8d8d8;
+	padding: 5px 5px 2px 5px;
+	border-radius: 8px;
+	float:right;
+}
+.click-zan{
+	display: inline-block;
+	margin: 5px;
+	border: 2px solid #d8d8d8;
+	padding: 5px 5px 2px 5px;
+	border-radius: 8px;
+	float:right;
+}
+.comment-total{
+	position: absolute;
+	top: 5px;
+	margin-left: 20px;
+	border-radius: 13px;
+	background-color: red;
+	width: 25px;
+	height: 25px;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	line-height: 25px;
+}
+input::-webkit-input-placeholder{ color:#FFF;font-size:14px;}
+input::-webkit-input-placeholder {color:#FFF;font-size:14px;}
+input:-moz-placeholder {color:#FFF;font-size:14px;}
+input::-moz-placeholder {color:#FFF;font-size:14px;
+}
+input:-ms-input-placeholder{color:#FFF;font-size:14px;
+}
+.clear-float{
+	clear: both;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ueditor编辑器</title>
+		<link href="css/editor-style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
+	    <script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
+	    <script type="text/javascript" src="third-party/jquery-1.10.2.js"></script>
+	    <script type="text/javascript" charset="utf-8" src="lang/zh-cn/zh-cn.js"></script>
+	</head>
+	<body>
+		
+		<div class="editor-top">
+			<input id="article-title" type="text" name="article-title"/>
+			<input id="article-author" type="text" name="ariticle-author" />
+			<div class="editor-top-line"></div>
+		</div>
+		<div class="editor-content">
+			<script id="editor" type="text/plain"></script>
+		</div>
+		<div class="editor-bottom">
+			<div class="image-model">
+				<span>封面:</span>
+				<input id="single-model" type="radio" name="model" checked="checked"/><label for="single-model">单图模式</label>
+				<input id="three-model" type="radio" name="model" /><label for="three-model">三图模式</label>
+			</div>
+			<div class="upload-images">
+				<div class="single-image">
+					<div class="single-upload">
+						<div class="img-upload">
+							<div class="line-row"></div>
+							<div class="line-col"></div>
+						</div>
+						<input id="file-upload0" type="file" accept="image/x-png,image/jpeg,image/gif,image/jpg" style="display: none;" />
+					</div>
+					<img class="single-preivew" id="file_preivew0" style="display: none;"/>
+				</div>
+				<div class="three-images">
+					<div class="three-upload">
+						<div class="img-upload" id="img1">
+							<div class="line-row" ></div>
+							<div class="line-col"></div>
+						</div>
+						<img class="single-preivew" id="file_preivew0" style="display: none;"/>
+						<div class="img-upload" id="img2">
+							<div class="line-row"></div>
+							<div class="line-col"></div>
+						</div>
+						<img class="single-preivew" id="file_preivew0" style="display: none;"/>
+						<div class="img-upload" id="img3">
+							<div class="line-row"></div>
+							<div class="line-col"></div>
+						</div>
+						<img class="single-preivew" id="file_preivew0" style="display: none;"/>
+						<input class="file-upload" type="file" accept="image/x-png,image/jpeg,image/gif,image/jpg" style="display: none;" />
+						<input class="file-upload" type="file" accept="image/x-png,image/jpeg,image/gif,image/jpg" style="display: none;" />
+						<input class="file-upload" type="file" accept="image/x-png,image/jpeg,image/gif,image/jpg" style="display: none;" />
+					</div>															
+				</div>
+			</div>
+			<div class="buttons">
+						<button id="btn-submit">发表</button>
+						<button id="btn-save">保存</button>
+						<button id="btn-preview">预览</button>
+				</div>	
+		</div>
+		<div class="preview-layer">
+			<div class="preview-bg"></div>
+			<div class="preview-phone">
+				<iframe id="preview-html" name="preview-html" src="preview-h5.html"></iframe>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="libs/layer/layer.js"></script>
+	<script type="text/javascript" src="js/editor.js"></script>
+</html>
