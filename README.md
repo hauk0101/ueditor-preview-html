@@ -26,4 +26,4 @@ editor.js | 实现了editor.html中UEditor初始化、图片上传、手机预�
 
 > 4.最终实现的预览功能截图如下：
 
-![](https://raw.githubusercontent.com/hauk0101/myjobs/master/wozlla/res/Rendering_Pipeline.jpg)
+![](https://raw.githubusercontent.com/hauk0101/ueditor-preview-html/master/demo-images/preview-effect-demo.png)
